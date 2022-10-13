@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #0D192C;
+}
+
+/*box container start*/
+.boxcontparent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxcont {
+    width: 283px;
+    height: 531px;
+    background-color: #15263F;
+    border-radius: 15px;
+    margin-top: 33.3px;
+    padding: 24px 24px;
+}
+.boxcont > p { 
+    font-family:'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #8BACD9;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.boxcont > h1 { 
+    font-size: 22px;
+    color: white;
+    font-family:'Outfit';
+    font-weight: 500;
+    cursor: pointer;
+}
+.boxcont > h1:hover{
+    transition: 1s;
+    color: #00FFF8;
+    
+}
+.boxcont > img{ 
+    max-width: 100%; 
+    border-radius: 8px; 
+    margin-bottom: 24px;
+    cursor: pointer;
+    background-size: cover;
+    
+    
+}
+
+
+.price { 
+    display: flex;
+    align-items: center;
+}
+.price > p { 
+    color: #00FFF8;
+    font-size: 18px;
+    font-family: 'Outfit';
+    margin-left: 5px;
+    cursor: pointer;
+    
+}
+
+.time { 
+    display: flex;
+    align-items: center;
+}
+.time > img { 
+    width: 19px;
+    margin-right: 5px;
+}
+.priceandtime { 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    
+}
+.border
+{
+    width: 100%;
+    height: 1px;
+    background-color: #2E405A;
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.author > img { 
+    width: 33px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.author > p { 
+    font-size: 18px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: #8BACD9;
+}
+.author > p span {
+    color: #FFFF;
+}
+.author > p span:hover{
+    transition: 1s;
+    color: #00FFF8;
+}
+
+/*box container end*/
+/*Image hover start*/
+
+/*Image hover end*/
